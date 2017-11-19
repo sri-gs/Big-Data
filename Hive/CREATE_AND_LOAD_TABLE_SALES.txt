@@ -1,4 +1,4 @@
-CREATE TABLE SALES (`row_id` INT,`order_id` INT,`order_date` DATE,`order_priority` STRING,`order_quantity` INT,`sales` FLOAT,`discount` FLOAT,`ship_mode` STRING,`profit` FLOAT,`unit_price` FLOAT,`shipping_cost`	 FLOAT,`customer_name` STRING,`province` STRING,`region` STRING,`customer_segment` STRING,`product_category` STRING,`product_sub_category` STRING,`product_name` STRING,`product_container` STRING,`product_base_margin` FLOAT,`ship_date` DATE)
+CREATE TABLE SALES (`row_id` INT,`order_id` INT,`order_date` DATE,`order_priority` STRING,`order_quantity` INT,`sales` FLOAT,`discount` FLOAT,`ship_mode` STRING,`profit` FLOAT,`unit_price` FLOAT,`shipping_cost` FLOAT,`customer_name` STRING,`province` STRING,`region` STRING,`customer_segment` STRING,`product_category` STRING,`product_sub_category` STRING,`product_name` STRING,`product_container` STRING,`product_base_margin` FLOAT,`ship_date` DATE)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 STORED AS TEXTFILE
