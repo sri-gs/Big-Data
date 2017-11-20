@@ -1,9 +1,7 @@
-INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output1’ SELECT customer_name FROM sales GROUP BY customer_name HAVING count(1)>20;
-
+hive>INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output1’ SELECT customer_name FROM sales GROUP BY customer_name HAVING count(1)>20;
 
 Terminal Output - 
 
-hive>INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output1’ SELECT customer_name FROM sales GROUP BY customer_name HAVING count(1)>20;
 Query ID = cloudera_20171119141919_0c12fbba-c6d8-4a63-8771-17e1a9d8f991
 Total jobs = 1
 Launching Job 1 out of 1
