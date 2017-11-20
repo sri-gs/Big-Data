@@ -1,4 +1,5 @@
-hive> INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output3' SELECT product_category,'=' AS PLACEHOLDER, ROUND(SUM(profit),2) FROM sales WHERE profit<0 GROUP BY product_category;
+hive> INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output3' SELECT product_category,'=' AS PLACEHOLDER, ROUND(SUM(profit),2) 
+FROM sales WHERE profit<0 GROUP BY product_category;
 
 Terminal Output - 
 
