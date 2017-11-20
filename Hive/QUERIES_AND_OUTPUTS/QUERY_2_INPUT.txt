@@ -1,0 +1,28 @@
+hive> INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output2' SELECT province,'=' AS PLACEHOLDER,count(1) FROM sales GROUP BY province;
+
+Terminal Output- 
+
+Query ID = cloudera_20171119144848_bffd9518-9ab8-4c85-887c-60f4df2a4334
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1511127538799_0007, Tracking URL = http://quickstart.cloudera:8088/proxy/application_1511127538799_0007/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1511127538799_0007
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2017-11-19 14:48:56,443 Stage-1 map = 0%,  reduce = 0%
+2017-11-19 14:49:08,659 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 2.1 sec
+2017-11-19 14:49:21,773 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.94 sec
+MapReduce Total cumulative CPU time: 3 seconds 940 msec
+Ended Job = job_1511127538799_0007
+Moving data to: /user/Sri/Hive/Output2
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 3.94 sec   HDFS Read: 1787180 HDFS Write: 235 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 940 msec
+OK
+Time taken: 37.542 seconds
