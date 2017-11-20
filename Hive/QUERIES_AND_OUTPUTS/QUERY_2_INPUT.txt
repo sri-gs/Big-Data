@@ -1,4 +1,5 @@
-hive> INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output2' SELECT province,'=' AS PLACEHOLDER,count(1) FROM sales GROUP BY province;
+hive> INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output2' SELECT province,'=' AS PLACEHOLDER,count(1) 
+FROM sales GROUP BY province;
 
 Terminal Output- 
 
