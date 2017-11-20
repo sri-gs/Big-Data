@@ -1,4 +1,5 @@
-hive>INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output1’ SELECT customer_name FROM sales GROUP BY customer_name HAVING count(1)>20;
+hive>INSERT OVERWRITE DIRECTORY '/user/Sri/Hive/Output1’ SELECT customer_name 
+FROM sales GROUP BY customer_name HAVING count(1)>20;
 
 Terminal Output - 
 
