@@ -2,7 +2,7 @@ Big-Data
 
 Big Data Analytics - Tableau Community Sample Data
 
-Performed Big Data Analytics in a Stand-Alone Node using MapReduce, Hive, Pig on sample data provided by Tableau Community.
+Performed Big Data Analytics in a Stand-Alone Node using MapReduce and Hive on sample data provided by Tableau Community.
 
 The Sample Data is in the following link. https://community.tableau.com/docs/DOC-1236
 
