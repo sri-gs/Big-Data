@@ -2,4 +2,4 @@ Query 1 - Find the customer names who have ordered more than 20 times.
 
 Query 2 - Find the number of orders from each province.
 
-Query 3 - Find the profits of those product categories who are below zero.
+Query 3 - Find the profits of the product categories whose profits are below zero.
